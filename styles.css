@@ -1,27 +1,41 @@
 body {
-    background-color:white;
-
+    margin: 0 auto;
+    width: 850px;
+    display: table;
 }
 
 header {
-    background-image: none;
-}    
-
-img {
-    border: solid red;
+    background-image: url(https://cdn.pixabay.com/photo/2011/12/13/17/09/ngc-2082-11052_1280.jpg);
+    color: white;
     width: 850px;
     height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+
+  }   
+
+
+
+ main {
+ display: flex;
+ height: 324px;
+ flex-direction: row;
+ justify-content: space-between;
+background-color: rgb(230, 230, 230);
+}
+    
+div {
+  flex-direction: column;
+width: 270px;
+height: 324px;
+background-color: rgb(230, 230, 230);
 }
 
-footer {
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    background-color: lightgray;
-    width: auto;
-    height: 324px;
-}
-    /* Style inputs with type="text", select elements and textareas */
+
+
+/* Style inputs with type="text", select elements and textareas */
 input[type=text],textarea {
     display: flex;
     flex-shrink: inherit;
